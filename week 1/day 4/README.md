@@ -1,4 +1,4 @@
-<h1>Day 3</h1>
+<h1>Day 4</h1>
 Pada hari ini kami mempelajari dasar cara membuat aplikasi NodeJS, Goland dan Python, kemudian cara menjalankan dan run di server local<p>
 
 <h1>Kebutuhan</h1>
