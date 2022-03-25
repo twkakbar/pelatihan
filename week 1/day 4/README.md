@@ -1,8 +1,8 @@
 <h1>Day 4</h1>
-Pada hari ini kami mempelajari dasar cara membuat aplikasi NodeJS, Goland dan Python, kemudian cara menjalankan dan run di server dan local<p>
+Pada hari ini kami mempelajari bagaimana cara meng-install GIT, konfigurasi dan menggunakannya<p>
 
 <h1>Kebutuhan</h1>
 Kebutuhan hari ini yaitu:
-<li> NodeJS, NVM dan Express JS</li>
-<li> Golang,  </li>
-<li> Python3, PIP dan Flask</li>
+<li> GIT </li>
+<li> SSH  </li>
+<li> Akun Github </li>
