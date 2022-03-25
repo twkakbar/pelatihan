@@ -28,4 +28,12 @@ Dan copy isi dari file id_rsa.pub yang dilingkari merah tersebut untuk kita paka
 3. Kemudian masuk ke Web github dan pilih settings di pojok kanan atas profil kita kemudan klik settings. Setelah itu pada halaman settings masuk ke tab
   SSH and GPG keys kemudian klik New SSH Key seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar4.jpg" alt="Alt text" title="Gambar 4"><p>
-4. 
+4. Kemudian masukkan title sesuai keinginan kita dan key SSH yang telah kita copy di step 2 tadi di kolom Key dan klik Add SSH key<p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar5.jpg" alt="Alt text" title="Gambar 5"><p>
+5. Jika berhasil maka akan muncul seperti ini di halaman SSH Keys kalian
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar6.jpg" alt="Alt text" title="Gambar 6"><p>
+6. Sekarang kita akan cek koneksi antara Local kita dengan Github dengan perintah berikut:
+```
+ssh -T git@github.com
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar7.jpg" alt="Alt text" title="Gambar 7"><p>
