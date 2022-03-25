@@ -23,6 +23,9 @@ ssh-keygen
 ```
 cat .ssh/id_rsa.pub
 ```
+Dan copy isi dari file id_rsa.pub yang dilingkari merah tersebut untuk kita pakai di step 4 nanti<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar3.jpg" alt="Alt text" title="Gambar 3"><p>
 3. Kemudian masuk ke Web github dan pilih settings di pojok kanan atas profil kita kemudan klik settings. Setelah itu pada halaman settings masuk ke tab
-  SSH and GPG keys kemudian klik New SSH Key seperti gambar berikut:
+  SSH and GPG keys kemudian klik New SSH Key seperti gambar berikut:<p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar4.jpg" alt="Alt text" title="Gambar 4"><p>
+4. 
