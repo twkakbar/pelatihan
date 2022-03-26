@@ -1,4 +1,4 @@
-<h1>Day 4</h1>
+<h1>Day 5</h1>
 Pada hari ini kami mempelajari apa itu CI/CD dan melakukan konfigurasi CI/CD menggunakan cloudflare pages<p>
 
 <h1>Kebutuhan</h1>
