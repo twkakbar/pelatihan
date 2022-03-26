@@ -1,4 +1,4 @@
-<h1>Instalasi, Konfigurasi dan Menggunakan GIT</h1>
+<h1>Konfigurasi CI/CD menggunakan Cloudflare</h1>
 <h2>Langkah 1 - Konfigurasi GIT</h2>
 1. Jika menggunakan sistem operasi Linux-Ubuntu/Mac OS maka kita tidak perlu install GIT lagi karena GIT sudah ada secara default, maka langkah pertama yang kita
 lakukan adalah konfigurasi GIT kita dengan menetapkan username dan email akun Github kita dengan menggunakan perintah<p>
