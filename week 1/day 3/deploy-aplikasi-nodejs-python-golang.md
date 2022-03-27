@@ -78,7 +78,7 @@ Dan tekan ctrl+x dan y dan enter untuk save<p><p>
 node index.js
 ```
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar8.jpg" alt="Alt text" title="Gambar 8"><p>
-6. Dan jika sudah muncul seperti gambar diatas maka aplikasi sudah berhasil dijalankan, untuk mengetes kita akan mencoba di web browser local seperti gambar berikut:
+6. Dan jika sudah muncul seperti gambar diatas maka aplikasi sudah berhasil dijalankan, untuk mengetes kita akan mencoba di web browser local seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar9.jpg" alt="Alt text" title="Gambar 9"><p>
 Dan dapat dilihat di gambar diatas aplikasi kita berhasil berjalan di web browser tanpa masalah<p>
   
@@ -96,15 +96,15 @@ Untuk mendonwnload engine Golang:<p>
 wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
 ```
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar10.jpg" alt="Alt text" title="Gambar 10"><p>
-2. Kemudian masuk ke path go pada `.bashrc` dengan perintah berikut:
+2. Kemudian masuk ke path go pada `.bashrc` dengan perintah berikut:<p>
   
 ```
 sudo nano .bashrc
 ```
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar12.jpg" alt="Alt text" title="Gambar 12"><p>
-3. Tambahkan `export PATH=$PATH:/usr/local/go/bin` di bagian paling bawa pada file .bashrc seperti gambar berikut:
+3. Tambahkan `export PATH=$PATH:/usr/local/go/bin` di bagian paling bawa pada file .bashrc seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar13.jpg" alt="Alt text" title="Gambar 13"><p>
-4. Kemudian kita check apakah Go sudah terinstall dengan baik, jika sudah maka akan seperti gambar berikut:
+4. Kemudian kita check apakah Go sudah terinstall dengan baik, jika sudah maka akan seperti gambar berikut:<p>
 
 ```
 go version
@@ -115,12 +115,12 @@ Untuk membuat file index.go:<p>
 ```
 touch index.go
 ```
-Untuk mengedit gunakan perintah berikut:<p
+Untuk mengedit gunakan perintah berikut:<p>
 ```
 nano index.go
 ```
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar17.jpg" alt="Alt text" title="Gambar 17"><p>
-6. Kemudian masukkan script berikut kedalam file index.go tadi:
+6. Kemudian masukkan script berikut kedalam file index.go tadi:<p>
 
 ```
 package main
@@ -132,10 +132,66 @@ func main() {
 }
 ```
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar18.jpg" alt="Alt text" title="Gambar 18"><p>
-7. Lalu kita coba run aplikasi go tadi dengan perintah berikut:
+7. Lalu kita coba run aplikasi go tadi dengan perintah berikut:<p>
 
 ```
 go run index.go
 ```
-Jika berhasil akan seperti gambar berikut:
+Jika berhasil akan seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar19.jpg" alt="Alt text" title="Gambar 19"><p>
+8. Untuk build aplikasi go gunakan perintah berikut:<p>
+
+```
+go build index.go
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar31.jpg" alt="Alt text" title="Gambar 31"><p>
+9. Lalu jalankan aplikasi go yang telah kita build tadi dengan perintah berikut:<p>
+
+```
+./index
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar32.jpg" alt="Alt text" title="Gambar 32"><p>
+
+<h2>Langkah 3 - Instalasi, Build dan Run Aplikasi Python3</h2>
+1. Aplikasi python telah di install secara default pada Ubuntu, maka kita tidak perlu mendownload nya lagi, untuk mengecek apakah python3 sudah ada gunakan
+perintah berikut:<p>
+
+```
+python3
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar20.jpg" alt="Alt text" title="Gambar 20"><p>
+2. Sekarang kita akan menginstall package manager dari python yaitu PIP dengan perintah berikut:<p>
+  
+```
+sudo apt install python3-pip
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar20.jpg" alt="Alt text" title="Gambar 21"><p>
+3. Setelah itu kita akan menginstall flask dengan perintah berikut:<p>
+
+```
+pip install flask
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar22.jpg" alt="Alt text" title="Gambar 22"><p>
+Catatan:<p>
+PIP adalah sebuah package management system yang biasa digunakan untuk mengatur dan menginstall package yang berisi modul-modul Python. PIP digunakan untuk menginstall Flask karena Flask ditulis dan dikembangkan dengan bahasa dan modul-modul pemrograman Python. Dengan menggunakan PIP, semua hal yang dibutuhkan untuk instalasi Flask akan diunduh dan dipasang dalam satu perintah.<p>
+4. Sekarang kita akan membuat file python kita dan mengedit nya<p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar23.jpg" alt="Alt text" title="Gambar 23"><p>
+5. Masukkan script berikut kedalam file index.py kita <p>
+
+```
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def helloworld():
+    return "Hello World"
+if __name__ == "__main__":
+    app.run()
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar24.jpg" alt="Alt text" title="Gambar 24"><p>
+6. kemudian jalankan file index.py kita tadi dengan menggunakan perintah berikut:<p>
+
+```
+python3 index.py
+```
+Dan jika berhasil akan seperti gambar berikut:<p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar24.jpg" alt="Alt text" title="Gambar 25"><p>
