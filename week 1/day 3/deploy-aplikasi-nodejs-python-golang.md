@@ -83,7 +83,7 @@ node index.js
 Dan dapat dilihat di gambar diatas aplikasi kita berhasil berjalan di web browser tanpa masalah<p>
   
 <h2>Langkah 2 - Instalasi, Build dan Run Aplikasi Golang</h2>
-1. Kembali ke halaman root, disini saya membuat directory baru untuk aplikasi golang kita dan mendownload engine Golang dengan perintah berikut:<p>
+1. Kembali ke directory root, disini saya membuat directory baru untuk aplikasi golang kita dan mendownload engine Golang dengan perintah berikut:<p>
 
 Untuk membuat directory:<p>
 
