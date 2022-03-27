@@ -18,7 +18,7 @@ di cloudflare pages seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar6.jpg" alt="Alt text" title="Gambar 6"><p>
 6. Kemudian masukkan password Github kalian<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar7.jpg" alt="Alt text" title="Gambar 7"><p>
-7. Jika sudah maka kita akan kembali ke halaman Cloudflare, jangan lupa di centang pada bagian repository kalian dan klik "Begin setup"
+7. Jika sudah maka kita akan kembali ke halaman Cloudflare, jangan lupa di centang pada bagian repository kalian dan klik "Begin setup"<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar8.jpg" alt="Alt text" title="Gambar 8"><p>
 8. Disini kita akan mengkonfigurasi CI/CD kita, masukkan project name yang kalian inginkan kemudian pilih branch kalian<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar9.jpg" alt="Alt text" title="Gambar 9"><p>
@@ -29,23 +29,23 @@ rekomendasi<p>
 Pada bagian ini Root directory saya sudah benar berada di "/" dan Untuk "Environment variables" saya kosongkan karena tidak ada backend didalam project ini hanya
 front end saja<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar11.jpg" alt="Alt text" title="Gambar 11"><p>
-9. Sekarang kita tunggu sampai proses build selesai dan di deploy
+9. Sekarang kita tunggu sampai proses build selesai dan di deploy<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar12.jpg" alt="Alt text" title="Gambar 12"><p>
-10. Jika proses build dan deploy berhasil maka akan muncul gambar berikut dan kita akan copy link yang telah diberikan untuk di tes 
+10. Jika proses build dan deploy berhasil maka akan muncul gambar berikut dan kita akan copy link yang telah diberikan untuk di tes <p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar13.jpg" alt="Alt text" title="Gambar 13"><p>
 11. Dan setelah di tes proses deploy berhasil, web dapat diakses dengan sempurna<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar14.jpg" alt="Alt text" title="Gambar 14"><p>
-12. Dan seperti ini status dari CI/CD kita tadi
+12. Dan seperti ini status dari CI/CD kita tadi<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar15.jpg" alt="Alt text" title="Gambar 15"><p>
 13. Kemudian saya akan melakukan perubahan di Github untuk melihat apakah CI/CD kita berjalan dengan baik dengana mengubah Title menjadi 
 Wayshub - Twk Muhammad Akbar Nahyadi<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar16.jpg" alt="Alt text" title="Gambar 16"><p>
 14. Dan secara otomatis CI/CD kita akan melakukan proses build dan deploy dengan sendirinya dapat dilihat di status berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar17.jpg" alt="Alt text" title="Gambar 17"><p>
-15. Dapat dilihat Log dari proses build kita
+15. Dapat dilihat Log dari proses build kita<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar18.jpg" alt="Alt text" title="Gambar 18"><p>
-16. Dan jika proses CI/CD berhasil maka Log kita akan memberitahu kita seperti gambar berikut:
+16. Dan jika proses CI/CD berhasil maka Log kita akan memberitahu kita seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar19.jpg" alt="Alt text" title="Gambar 19"><p>
 17. Dapat dilihat hasil CI/CD berjalan dengan baik dan web yang tadinya title hanya "Wayshub" sekarang berubah menjadi "Wayshub - Twk Muhammad Akbar Nahyadi"
-yang artinya proses CI/CD kita berhasil!
+yang artinya proses CI/CD kita berhasil!<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%204/assets/gambar20.jpg" alt="Alt text" title="Gambar 20"><p>
