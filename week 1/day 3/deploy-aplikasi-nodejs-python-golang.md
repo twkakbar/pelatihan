@@ -1,4 +1,4 @@
-<h1>Build dan Running aplikasi NodeJS, Golang dan Python3</h1>
+<h1>Build dan Running aplikasi NodeJS, Golang dan Python3 dan Jalankan Secara Daemon Menggunakan PM2</h1>
 <h2>Langkah 1 - Instalasi, Build dan Run Aplikasi NodeJS</h2>
 1. Install terlebih dahulu engine NodeJS dengan cara perintah berikut:<p>
   
@@ -195,3 +195,5 @@ python3 index.py
 ```
 Dan jika berhasil akan seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar25.jpg" alt="Alt text" title="Gambar 25"><p>
+
+
