@@ -77,7 +77,7 @@ npm -v
 ```
 npm install -g localtunnel
 ```
-6. Jika instalasi localtunnel sudah selesai sekarang kita akan menjalankan locacltunnel pada Apache2 kita dengan cara perintah berikut
+6. Jika instalasi localtunnel sudah selesai sekarang kita akan menjalankan localtunnel pada Apache2 kita dengan cara perintah berikut
   
 ```
 lt --port 80
