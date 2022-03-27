@@ -1,2 +1,2 @@
-# Repo disini berisi tugas mingguan Bootcamp Devops Dumbways
+# Repo disini berisi tugas mingguan Training Devops-Engineer
  
