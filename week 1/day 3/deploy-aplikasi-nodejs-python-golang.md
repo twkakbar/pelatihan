@@ -194,4 +194,4 @@ if __name__ == "__main__":
 python3 index.py
 ```
 Dan jika berhasil akan seperti gambar berikut:<p>
-<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar24.jpg" alt="Alt text" title="Gambar 25"><p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar25.jpg" alt="Alt text" title="Gambar 25"><p>
