@@ -165,7 +165,7 @@ python3
 ```
 sudo apt install python3-pip
 ```
-<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar20.jpg" alt="Alt text" title="Gambar 21"><p>
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar21.jpg" alt="Alt text" title="Gambar 21"><p>
 3. Setelah itu kita akan menginstall flask dengan perintah berikut:<p>
 
 ```
@@ -195,3 +195,52 @@ python3 index.py
 ```
 Dan jika berhasil akan seperti gambar berikut:<p>
 <img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar25.jpg" alt="Alt text" title="Gambar 25"><p>
+
+<h2>Langkah 4 - Instalasi, Build dan Run Aplikasi NodeJS</h2>
+1. Lakukan instalasi PM2 dengan perintah berikut:
+
+```
+npm install pm2 -g
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar26.jpg" alt="Alt text" title="Gambar 26"><p>
+2. Kemudian masuk ke directory NodeJS dan start aplikasi NodeJS kita secara daemon dengan perintah berikut:
+  
+```
+pm2 start index.js
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar27.jpg" alt="Alt text" title="Gambar 27"><p>
+3. Dan aplikasi NodeJS kita berhasil dijalankan di PM2 secara daemon seperti gambar berikut:
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar28.jpg" alt="Alt text" title="Gambar 28"><p>
+4. Sekarang kita akan menjalankan aplikasi python kita dengan cara masuk terlebih dahulu ke directory python dan masukkan perintah berikut:
+
+```
+pm2 start index.py --interpreter python3
+```
+Dan aplikasi Python3 kita berhasil dijalankan di PM2 secara daemon seperti gambar berikut:
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar29.jpg" alt="Alt text" title="Gambar 29"><p>
+5. Sekarang kita akan masuk ke aplikasi Golang kita dan menjalankannya secara daemon dengan perintah berikut:
+
+```
+pm2 start index.go
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar34.jpg" alt="Alt text" title="Gambar 34"><p>
+6. Sekarang kita akan mengecek status keseluruhan dengan perintah berikut apakah berjalan dengan baik atau tidak
+```
+pm2 status
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar33.jpg" alt="Alt text" title="Gambar 33"><p>
+  
+<h2>Langkah 5 - Localtunnel</h2>
+1. Karena localtunnel telah di install maka kita langsung jalankan localtunnel di aplikasi python dan nodejs dengan perintah berikut:<p>
+Untuk Aplikasi python disini menggunakan port 5000 dengan perintah:<p>
+
+```
+lt --port 5000
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar35.jpg" alt="Alt text" title="Gambar 35"><p>
+Untuk Aplikasi NodeJS disini menggunakan port 300 dengan perintah:<p>
+
+```
+lt --port 3000
+```
+<img src="https://raw.githubusercontent.com/twkakbar/pelatihan/main/week%201/day%203/assets/gambar36.jpg" alt="Alt text" title="Gambar 36"><p>
