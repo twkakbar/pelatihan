@@ -15,13 +15,32 @@ cara membuka file nano dapat menggunakan perintah berikut
 ```
 nano (file-name)
 ```
-![Img 1](assets/gambar1.JPG)
-![Img 2](assets/gambar2.JPG)
+![Img 1](assets/1.JPG)
+![Img 2](assets/2.JPG)
 ```
 nano (location/folder/file-name)
 ```
-![Img 3](assets/gambar3.JPG)
-![Img 4](assets/gambar4.JPG)
+![Img 3](assets/3.JPG)
+![Img 4](assets/4.JPG)
+
 keterangan : location/aplikasi-go-saya/index.go merupakan file yang lokasinya berada dalam folder/directory.
 
 #### 2. Keluar dari text editor
+`ctrl + X` untuk keluar dari editor. Jika melakukan perubahan maka akan dimintai konfirmasi apakah perubahan akan disimpan / tidak. Ketik Y untuk yes, dan N untuk No kemudian tekan Enter.
+
+![Img 4](assets/5.JPG)
+
+Jika kalian ingin mengubah nama dari file, kalian dapat mengubah nama dari yang sebelumnya index.go menjadi nama file yang kalian inginkan, jika
+tidak kalian bisa langsung enter tanpa mengganti namanya seperti digambar berikut:
+
+![Img 4](assets/6.JPG)
+
+`ctrl + O` adalah untuk menyimpan perubahan file tanpa harus keluar dari text editor nano. Kemudian tekan Enter.
+
+![Img 4](assets/6.JPG)
+
+#### 3. Mencari text
+`ctrl + W` adalah untuk mencari text. Masukkan value ke kolom pencarian kemudian tekan Enter.
+![Img 4](assets/7.JPG)
+
+#### 4. Mencari text
