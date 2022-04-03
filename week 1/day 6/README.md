@@ -92,3 +92,117 @@ Kemudian masukan lokasi yang sesuai dengan file yang isinya ingin kalian ambil
 ![Img 12](assets/18.jpg)
 
 # 2. Text Manipulation
+
+#### 1. cat
+`Cat` adalah salah satu perintah yang berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout). Yang kalian tahu pasti perintah `cat` hanya bisa untuk melihat isi dari suatu file, sebenarnya tidak hanya itu.
+
+Contoh penggunaan :
+
+Untuk melihat isi dari suatu file
+
+```
+cat (file-name)
+```
+
+![Img 12](assets/19.jpg)
+
+Untuk membuat suatu file baru serta memasukkan teks, Jika sudah menambakan teks kalian dapat keluar dengan klik CTRL + C.
+
+```
+cat > (file-name)
+```
+
+![Img 19](assets/20.jpg)
+
+Kemudian untuk menggabungkan dua buah file, dan menyimpannya ke dalam test3.go
+
+```
+cat test.go test2.go > test3.go
+```
+
+![Img 21](assets/21.jpg)
+
+#### 2. sed
+`Sed` adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan `sed` kita dapat mengganti teks dengan cepat.
+```
+sed -i 's/Hello/Holla/g' file3
+```
+
+Disini saya mengganti semua kata test menjadi testing pada test3.go
+
+![Img 22](assets/22.jpg)
+
+#### 3. grep
+`Grep` merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat.
+
+Contoh:
+
+Saya akan mencari kata testing pada test3.go
+
+```
+grep testing test3.go
+```
+
+![Img 23](assets/23.jpg)
+
+Untuk menghitung jumlah kata “testing” pada test3.go
+
+```
+grep -c testing test3.go
+```
+
+![Img 24](assets/24.jpg)
+
+Untuk mencari semua file yang berisikan kata testing gunakan perintah berikut:
+
+```
+grep testing *
+```
+
+![Img 25](assets/25.jpg)
+
+#### 4. sort
+`Sort` untuk mengurutkan data, baik itu secara ascending atau descending.
+
+Gunakan perintah berikut untuk mengurutkan berdasarkan ascending:
+
+```
+sort file1
+```
+
+![Img 26](assets/26.jpg)
+
+Gunakan perintah berikut untuk mengurutkan berdasarkan descending
+
+```
+sort -r file1
+```
+
+![Img 27](assets/27.jpg)
+
+#### 5. echo
+`Echo` digunakan untuk mencetak string / pesan dari hasil perintah lain.
+
+Gunakan perintah berikut untuk mencetak string Hallo Dunia!
+
+```
+echo "Hallo Dunia!"
+```
+
+![Img 28](assets/28.jpg)
+
+Gunakan perintah berikut untuk mencetak kata Halo Dunia! di file2
+
+```
+echo "Hello Dumbways!" >> file3
+```
+
+![Img 29](assets/29.jpg)
+
+Gunakan perintah berikut untuk mereplace semua data di file2 dan menggantinya dengan "Replace semua data di file2"
+
+```
+echo "Replace semua data di file2" > file2
+```
+
+![Img 30](assets/30.jpg)
