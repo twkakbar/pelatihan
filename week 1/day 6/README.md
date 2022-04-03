@@ -1,4 +1,4 @@
-# Day 5
+# Day 6
 Pada hari ini kami mempelajari tentang text editor, text manipulation, monitoring, service management hingga network firewal
 
 # 1. Text Editor Shortcut (Nano)
