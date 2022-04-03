@@ -77,7 +77,7 @@ tidak kalian bisa langsung enter tanpa mengganti namanya seperti digambar beriku
 
 ![Img 12](assets/15.jpg)
 
-#### 8. Move cursor
+#### 8. Ambil konten dari file lain
 ![Img 12](assets/16.jpg)
 
 Kalau kita lihat disini saya memilik file bernama 1.html di dalam directory editor. Sekarang kita akan coba untuk mengambil isi dari file 1.html tersebut ke 
