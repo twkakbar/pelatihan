@@ -13,7 +13,8 @@ npm install --global yarn
 
 ![Img 1](assets/1.jpg)
 
-
+![Img 2](assets/2.jpg)
+    
 ## Langkah 2 - Reverse Proxy
 
 <p>1. Masuk ke folder nginx setelah itu buat suatu directory baru telebih dahulu
