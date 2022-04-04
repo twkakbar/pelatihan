@@ -35,7 +35,7 @@ Bash Script untuk Update dan Upgrade Berhasil jika muncul seperti gambar diatas.
 sudo ufw allow 22; sudo ufw allow 80; sudo ufw allow 443
 ```
   
-![Img 35](assets/35.jpg)
+![Img 37](assets/37.jpg)
   
 3. Jalankan file firewall tadi, hidupkan firewall dan cek hasil firewallnya dengan perintah berikut:
 
