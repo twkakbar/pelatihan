@@ -13,6 +13,8 @@ npm install --global yarn
 
 ![Img 1](assets/1.jpg)
 
+Kemudian lakukan instalasi modul    
+    
 ![Img 2](assets/2.jpg)
     
 ## Langkah 2 - Reverse Proxy
