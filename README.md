@@ -6,7 +6,7 @@
 - [Build and Run NodeJS,Golang and Python3 Application](https://github.com/twkakbar/pelatihan/blob/main/week%201/day%203/deploy-aplikasi-nodejs-python-golang.md)
 - [Git, SSH Keys and Push to Github](https://github.com/twkakbar/pelatihan/blob/main/week%201/day%204/install-konfigurasi-dan-menggunakan-git.md)
 - [CI/CD with Cloudflare Pages](https://github.com/twkakbar/pelatihan/tree/main/week%201/day%205)
-- [Text Editor, Text Manipulation and Basic Firewall]()
-- [Web Server and Load Balancing]()
+- [Text Editor, Text Manipulation and Basic Firewall](https://github.com/twkakbar/pelatihan/tree/main/week%201/day%206)
+- [Web Server and Load Balancing](https://github.com/twkakbar/pelatihan/blob/main/week%201/day%207/load-balancing.md)
 
 # Week 2
