@@ -1,9 +1,9 @@
-<h1>Day 1</h1>
-Pada hari ini kami melakukan konfigurasi dan tes instalasi Ubuntu server menggunakan VMware<p>
+<h1>Day 1 - Week 2</h1>
+Pada hari ini kami mempelajari tentang multipass, deployment aplikasi Node.JS dan reverse proxy <p>
 
 <h1>Kebutuhan</h1>
-Sebelum mulai, siapkan dulu beberapa kebutuhan sebagai berikut:
-<li> File ISO Ubuntu Server 20.04.4 </li>
-<li> Aplikasi VMware </li>
-<li> Ram minimal 4 GB </li>
+Berikut adalah kebutuhan hari ini:
+<li> Multipass </li>
+<li> Sistem Operasi Linux </li>
+<li> Ram minimal 8 GB </li>
 <li> Hard disk minimal 20 GB </li>
