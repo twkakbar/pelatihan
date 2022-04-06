@@ -1,4 +1,4 @@
-<h1>Day 2</h1>
+<h1>Day 2 - Week 2</h1>
 Pada hari ini kami mempelajari deployment aplikasi backend dan database menggunakan idcloudhost<p>
 
 # Kebutuhan
