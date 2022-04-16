@@ -176,7 +176,7 @@ Edit api.js di directory syc/config untuk mengkoneksikan ke back end nya
 
 ![Img 19](assets/19.png)
 
-![Img 20](assets/20.png)
+![Img 20](assets/20b.png)
 
 11. Sekarang kita akan buat file dockerfile seperti di backend tadi dengan isi:
 
