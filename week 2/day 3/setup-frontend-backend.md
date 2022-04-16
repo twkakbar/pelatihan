@@ -216,9 +216,8 @@ docker-compose up -d
 
 14. Sekarang kita cek di web browser
 
-```
 ![Img 22](assets/24.png)
-```
+
 
 ## Langkah 4 - Setup Gateway
 1. Sekarang kita akan mengkonfigurasi gateaway nya dengan reverse proxy
