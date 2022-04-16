@@ -110,7 +110,7 @@ Karna disini saya sudah mempunyai .env maka disini saya hanya memperlihatkan isi
 nano .env
 ```
 
-![Img 10](assets/10.png)
+![Img 10](assets/11.png)
 
 
 ![Img 12](assets/12.png)
