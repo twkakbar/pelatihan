@@ -205,6 +205,6 @@ pipeline{
 
 ![Img 2](assets/36.png)
 
-26. Berikut hasilnya
+27. Berikut hasilnya
 
 ![Img 2](assets/37.png)
