@@ -201,6 +201,10 @@ pipeline{
 
 ![Img 2](assets/35.png)
 
-26. Berikut hasilnya
+26. Masukkan link jenkins kita yang sudah https
 
-![Img 2](assets/36.png)
+![Img 2](assets/36b.png)
+
+27. Berikut hasilnya
+
+![Img 2](assets/37b.png)
