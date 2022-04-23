@@ -180,3 +180,7 @@ Hasil backend
 Hasil frontend
 
 ![Img 1](assets/21.png)
+
+Status scale
+
+![Img 1](assets/24.png)
