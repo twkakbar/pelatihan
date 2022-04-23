@@ -151,7 +151,7 @@ docker run -d --name database -p 3306:3306 -v ~/mysql-data:/var/lib/mysql -e MYS
 docker stack deploy --compose-file docker-compose.yml (name service)
 ```
 
-![Img 1](assets/16png)
+![Img 1](assets/16.png)
 
 4. Untuk melihat aplikasi yang telah kita deploy menggunakan docker swarm, gunakan perintah berikut:
 
@@ -159,7 +159,7 @@ docker stack deploy --compose-file docker-compose.yml (name service)
 docker service ls
 ```
 
-![Img 1](assets/17png)
+![Img 1](assets/17.png)
 
 5. Sekarang kita coba untuk melakukan Scaling aplikasi backend menggunakan perintah berikut:
 
@@ -167,8 +167,16 @@ docker service ls
 docker service scale (service id)=(jumlah yang di inginkan)
 ```
 
-![Img 1](assets/18ng)
+![Img 1](assets/18.png)
 
 6. Hasil scaling
 
-![Img 1](assets/17.png)
+![Img 1](assets/23.png)
+
+Hasil backend
+
+![Img 1](assets/20.png)
+
+Hasil frontend
+
+![Img 1](assets/21.png)
