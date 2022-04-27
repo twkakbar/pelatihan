@@ -24,7 +24,15 @@ Untuk load balancing disini saya sudah menggunakan ansible, berikut playbook nya
 
 ![Img 1](assets/5.png)
 
-2. Disini saya membuat ansible untuk menginsatll docker, container nya, nginx, dan tambah user agar setup lebih cepat, berikut playbook nya:
+2. Install ansible di local
+
+3. Buat file keypem yang digunakan agar server local dapat terhubung ke server target
+
+4. Buat inventory yang berisi semua server target
+
+5. Buat file ansible.cfg yang berisi konfigurasi letak dari keypem dan inventory
+
+6. Disini saya membuat ansible untuk menginsatll docker, container nya, nginx, dan tambah user agar setup lebih cepat, berikut playbook nya:
 
 Install docker:
 
