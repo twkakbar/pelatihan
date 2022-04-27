@@ -67,4 +67,25 @@ grafana:
 
 ![Img 1](assets/1.png)
 
+3. Agar ketika mengakses prometheus harus menggunakan password, gunakan perintah berikut:
+
+```
+sudo apt-get install apache2-utils
+```
+
+Lalu generate password nya menggunakan:
+
+```
+sudo htpasswd -c /etc/nginx/.htpasswd public
+```
+
+Kemudian masuk ke konfigurasi reverse proxy nginx prometheus dan masukkan konfigurasi berikut:
+
+```
+auth_basic           "Prometheus";
+auth_basic_user_file /etc/nginx/.htpasswd;
+```
+
+![Img 1](assets/3.png)
+
 
