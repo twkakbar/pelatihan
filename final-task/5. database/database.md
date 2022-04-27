@@ -35,7 +35,7 @@ docker exec -it postgres psql -U postgres
 
 6. Sekarang buat database bernama dumbflix
 
-![Img 1](assets/7.png
+![Img 1](assets/7.png)
 
 7. Tambah user baru yang bernama twk beserta password nya dan berikan privileges atau izin user twk ke database dumbflix
 
