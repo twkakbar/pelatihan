@@ -66,6 +66,20 @@ Config & Restart SSHD
 
 ![Img 1](assets/1.png)
 
+Catatan:
+
+Untuk mendapatkan password gunakan whois yaitu install terlebih dahulu menggunakan:
+
+```
+sudo apt install whois
+```
+
+Kemudian gunakan perintah berikut dan masukkan password yang kalian ingin gunakan
+
+```
+mkpasswd --sha-512
+```
+
 2. Tes masuk ke server jenkins dengan user baru yaitu user jenkins
 
 ![Img 1](assets/2.png)
