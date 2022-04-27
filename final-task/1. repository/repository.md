@@ -1,5 +1,4 @@
-# Setup Ansible and Monitoring
-
+# Repository
 
 1. Pertama buat terlebih dahulu repository di github
 
