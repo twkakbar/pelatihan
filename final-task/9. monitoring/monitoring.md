@@ -25,7 +25,7 @@
   - name: Login to DockerHub
     docker_login:
      username: twkakbar
-     password: Gangster54321?
+     password: 
 
   - name: Pull Prometheus
     become: true
