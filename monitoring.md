@@ -65,6 +65,6 @@ Catatan pada node exporter:
 
 --path.rootfs adalah untuk memetakan file sistem dari host jadi node exporter tidak akan memetakan file sistem dari docker.
 
-2. 
+2. To be updated
 
 
